@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: reading-list-api
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+paths:
+  /validacion:
+    get:
+      tags:
+        - default
+      summary: Get all books
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+
