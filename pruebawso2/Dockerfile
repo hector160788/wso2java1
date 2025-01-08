@@ -13,7 +13,7 @@ RUN ls -l
 RUN mvn clean install
 
 # 2. Just using the build artifact and then removing the build-container
-FROM openjdk:17-alpine
+FROM openjdk:17
 
 # https://security.alpinelinux.org/vuln/CVE-2021-46848
 RUN apk add --upgrade libtasn1-progs
