@@ -5,11 +5,11 @@ info:
 servers:
   - url: http://localhost:8080
 paths:
-  /validacion:
+  /validacion/prueba:
     get:
       tags:
         - default
-      summary: Get all books
+      summary: path prueba
       responses:
         "200":
           description: Successful response
